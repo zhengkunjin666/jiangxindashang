@@ -1,0 +1,385 @@
+/* 页面头部样式 */
+.page-header{
+    height: 546px;
+    background: url(./../image/banner-bg.png) no-repeat;
+    background-size: cover;
+}
+.header-logo{
+    margin-top: 20px;
+}
+.header-pic{
+    text-align: center;
+    margin-top: 94px;
+}
+/* 页面主体样式 */
+.mainer-border{
+    font-size: 0;
+    text-align: center;
+    margin-top: -3px;
+    margin-bottom: -2px;
+}
+.main-container{
+    font-family: FZLTHJW;
+    font-weight: normal;
+    color: #000000;
+    background: #FFFFFF;
+    border: 6px solid #E2E2E2;
+    position: relative;
+    display: none;
+}
+/* 横栏部分样式 */
+.banner-section{
+    height: 280px;
+    text-align: center;
+    padding: 92px 98px 0px;
+}
+.h2-title-bg1{
+    float: left;
+    margin-top: -67px;
+    margin-left: -80px;
+}
+.banner-title{
+    font-size: 30px;
+}
+.banner-desc{
+    font-size: 16px;
+    line-height: 26px;
+    white-space: nowrap;
+    margin-top: 26px;
+}
+/* 布道师样式 */
+.preachers-container{
+    font-size: 0;
+    border-top: 12px dotted #F7F7F7;
+    border-bottom: 12px dotted #F7F7F7;
+    background: #F7F7F7;
+    background-clip: padding-box;
+    position: relative;
+}
+.preachers-container::before{
+    content: '';
+    width: 100%;
+    height: 6px;
+    background-color: #F7F7F7;
+    position: absolute;
+    top: -6px;
+}
+.preachers-container::after{
+    content: '';
+    width: 100%;
+    height: 6px;
+    background-color: #F7F7F7;
+    position: absolute;
+    bottom: -6px;
+}
+.preachers-session{
+    display: flex;
+    align-items: flex-start;
+}
+.h2-title{
+    margin: 13px 16px 0px 20px;
+}
+.preachers-details{
+    width: 516px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 61px;
+}
+.course-img{
+    cursor: pointer;
+    margin-top: 21px;
+    margin-left: 65px;
+}
+.preachers-list{
+    padding: 0px 31px 0px 27px
+}
+.preachers-list:nth-child(n+3){
+    margin-top: 51px;
+}
+.header-wrapper{
+    padding-left: 2px;
+    display: flex;
+}
+.h3-title{
+    margin-top: -12px;
+}
+.title-wrapper{
+    margin-left: 26px;
+}
+.preachers-title{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.preachers-desc{
+    font-size: 16px;
+    color: #333333;
+}
+.card-list{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.card-item{
+    width: 290px;
+    height: 212px;
+    font-size: 0;
+    text-align: center;
+    background-image: url(./../image/card-bg.png);
+    padding-top: 13px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+.teacher-name{
+    font-size: 18px;
+    margin: 21px 0px 6px 0px;
+}
+.teacher-intro{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+    padding-left: 16px;
+    margin-bottom: 17px;
+}
+.card-item.card-lesson{
+    padding-top: 0px;
+}
+.lesson-img{
+    width: 290px;
+    height: 212px;
+    transition: all 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.lesson-img:first-child{
+    display: block;
+}
+.lesson-img:nth-child(n+2){
+    transform: translateX(-300px);
+}
+.preachers-border{
+    text-align: center;
+    margin: 35px 0px 11px 0px;
+}
+.more-info{
+    font-size: 14px;
+    color: #666666;
+    text-align: right;
+    line-height: 15.5px;
+    margin: 21px 31px 14px 0px;
+}
+/* 寄语部分样式 */
+.message-section{
+    padding-top: 15px;
+    margin-bottom: -13px;
+}
+.h2-title-bg2{
+    float: left;
+    margin-left: 20px;
+}
+.message-title{
+    font-size: 30px;
+    margin-top: 22px;
+    margin-left: 328px;
+}
+.message-content{
+    margin: 15px 30px 26px 96px;
+    display: flex;
+    justify-content: space-between;
+}
+.message-desc{
+    width: 351px;
+    font-size: 14px;
+    text-decoration: underline;
+    line-height: 26px;
+    margin-top: 6px;
+}
+.message-time{
+    font-size: 12px;
+    margin-top: 16px;
+}
+.message-rule{
+    width: 347px;
+    font-size: 12px;
+    line-height: 13.5px;
+    margin-top: 6.5px;
+}
+.rule-list{
+    margin-top: -13.5px;
+    margin-left: 60px;
+}
+.rule-item{
+    margin-bottom: 12.5px;
+}
+.gift-img{
+    cursor: pointer;
+}
+.gift-text{
+    font-size: 16px;
+    margin: 15px 0px 0px 10px;
+}
+.message-send{
+    margin-left: 97px;
+    display: table;
+
+}
+.message-textarea{
+    width: 650px;
+    height: 86px;
+    font-size: 16px;
+    line-height: 20px;
+    word-wrap: break-word;
+    border: 1px solid #DBDBDB;
+    background-image: url(./../image/textarea_bg_1.png),url(./../image/textarea_bg_2.png);
+    background-position: left top,right bottom;
+    background-repeat: no-repeat;
+    outline: none;
+    resize: none;
+    padding: 11px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.message-btn{
+    width: 150px;
+    height: 86px;
+    font-size: 16px;
+    color: #666666;
+    line-height: 22px;
+    background: linear-gradient(0deg, #EBEBEB, #FAFAFA);
+    border: 1px solid #DBDBDB;
+    border-left: 0px;
+    cursor: pointer;
+    outline: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.message-borad{
+    width: 100%;
+    min-height: 500px;
+    background-image: url(./../image/banner-mountain.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    padding-bottom: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+.message-item{
+    width: 320px;
+    min-height: 158px;
+    max-height: 400px;
+    background: #FFF0F0;
+    border: 1px solid #EAD5D5;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.05);
+    padding: 20px 18px;
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.message-item::before{
+    content: '';
+    width: 50px;
+    height: 45px;
+    background-image: url(./../image/message_bg_left.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: -21px;
+    left: -15px;
+}
+.message-item::after{
+    content: '';
+    width: 50px;
+    height: 45px;
+    background-image: url(./../image/message_bg_right.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    top: -21px;
+    right: -25px;
+}
+.close-tag{
+    width: 21px;
+    height: 26px;
+    cursor: pointer;
+    position: absolute;
+    top: -27px;
+    right: -2px;
+    z-index: 2;
+}
+.user-name{
+    font-size: 16px;
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+.user-message{
+    font-size: 14px;
+    line-height: 26px;
+    word-wrap: break-word;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 13;
+    text-overflow: ellipsis;
+}
+hr{
+    width: 320px;
+    position: absolute;
+    top: 22px;
+    left: -1px;
+    border: none;
+    border-top: 1px solid #EAD5D5;
+    opacity: 0.5;
+}
+/* 页面边栏样式 */
+.aside-section{
+    font-size: 0;
+    position: absolute;
+    top: 256px;
+    right: -113px;
+}
+.nav-before-bg{
+    margin-left: -27px;
+}
+.aside-nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav-item{
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+    line-height: 15.5px;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    padding-top: 24px;
+}
+.nav-item:first-child{
+    padding-top: 28px;
+}
+.nav-item:last-child{
+    color: #CF000D;
+    padding-top: 25px;
+}
+.nav-item:hover{
+    color: #CF000D;
+}
+.nav-after-bg{
+    margin-left: 2px;
+}
+/* 页面脚部样式 */
+.page-footer{
+    text-align: center;
+    margin-top: 49px;
+    margin-bottom: 47px;
+}
+.footer-title{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.footer-desc{
+    font-size: 12px;
+}
